@@ -9,7 +9,7 @@ type Props = {
   params: { locale: string };
 };
 
-export default async function Layout({ children, params }: Props) {
+export default async function Layout({ children, params }: Readonly<Props>) {
   const { locale } = await params;
 
   if (!hasLocale(routing.locales, locale)) {
