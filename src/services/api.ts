@@ -45,5 +45,8 @@ export const api = createApi({
   reducerPath: 'api',
   baseQuery: baseQueryWithReauth,
   endpoints: () => ({}),
-  tagTypes: ['chapters', 'courses', 'forums', 'users', 'forumReplies', 'tests', 'olympiads', 'papers'],
+  tagTypes: [
+    'chapters', 'courses', 'forums', 'users', 'forumReplies', 'tests', 'olympiads', 'papers',
+    'accessCodes', 'credentials', 'credentialGroups', 'services', 'serviceLinks', 'payments', 'subscriptions',
+  ],
 });
