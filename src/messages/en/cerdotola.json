@@ -1,0 +1,23 @@
+{
+  "gravesTitle": "Engravings",
+  "gravesSubtitle": "Citizens with a registered engraving",
+  "gravesFields": {
+    "nomComplet": "Full name",
+    "paysOrigine": "Country of origin",
+    "identifiantCertificat": "Certificate ID"
+  },
+  "reversementsTitle": "Remittances",
+  "reversementsSubtitle": "History of CERDOTOLA remittances",
+  "reversementsFields": {
+    "montant": "Amount",
+    "date": "Date",
+    "recu": "Receipt"
+  },
+  "exportPdf": "Export as PDF",
+  "verifyTitle": "Verify a certificate",
+  "verifySubtitle": "Enter the certificate code to verify its authenticity",
+  "verifyCodeLabel": "Certificate code",
+  "verifySubmit": "Verify",
+  "verifyValid": "Valid certificate",
+  "verifyInvalid": "Invalid or unknown certificate"
+}

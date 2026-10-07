@@ -1,0 +1,12 @@
+{
+  "title": "Financial dashboard",
+  "subtitle": "Overview of payments and subscriptions",
+  "totalEncaisse": "Total collected",
+  "totalResteAPayer": "Remaining balance",
+  "nombreCitoyensSoldes": "Fully paid citizens",
+  "montantDuCerdotola": "Amount owed to CERDOTOLA",
+  "dejaReverseCerdotola": "Already remitted to CERDOTOLA",
+  "citoyensParStatut": "Citizens by subscription status",
+  "citoyensParReseau": "Citizens by acquisition channel",
+  "reseauNonRenseigne": "Not specified"
+}

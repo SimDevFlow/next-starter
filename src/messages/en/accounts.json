@@ -1,0 +1,21 @@
+{
+  "title": "Admin accounts",
+  "subtitle": "Manage team access",
+  "createTitle": "Create account",
+  "fields": {
+    "email": "Email",
+    "password": "Password",
+    "role": "Role",
+    "ambassadeurVille": "City (ambassador)",
+    "ambassadeurAssociation": "Association (ambassador)",
+    "disabled": "Status",
+    "createdAt": "Created on"
+  },
+  "filterByRole": "Filter by role",
+  "allRoles": "All roles",
+  "createSuccess": "Account created.",
+  "enableSuccess": "Account enabled.",
+  "disableSuccess": "Account disabled.",
+  "confirmDisableTitle": "Disable this account?",
+  "confirmEnableTitle": "Enable this account?"
+}

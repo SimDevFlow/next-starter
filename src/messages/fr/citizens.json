@@ -1,0 +1,29 @@
+{
+  "title": "Citoyens",
+  "subtitle": "Gérer les comptes citoyens enregistrés",
+  "fields": {
+    "name": "Nom",
+    "firstName": "Prénom",
+    "email": "Email",
+    "telephone": "Téléphone",
+    "paysResidence": "Pays de résidence",
+    "ville": "Ville",
+    "paysOrigine": "Pays d'origine",
+    "village": "Village",
+    "lignage": "Lignage",
+    "languePreferee": "Langue préférée",
+    "commentEntenduParler": "Comment nous a-t-il connu",
+    "statutAbonnement": "Abonnement",
+    "statutGravure": "Gravure",
+    "statutCartePvc": "Carte PVC",
+    "trackingDhl": "Suivi DHL",
+    "createdAt": "Inscrit le",
+    "disabled": "Compte désactivé"
+  },
+  "detailTitle": "Fiche citoyen",
+  "editTitle": "Modifier le citoyen",
+  "confirmDeleteTitle": "Supprimer ce citoyen ?",
+  "confirmDeleteDescription": "Cette action est irréversible.",
+  "deleteSuccess": "Citoyen supprimé.",
+  "updateSuccess": "Citoyen mis à jour."
+}

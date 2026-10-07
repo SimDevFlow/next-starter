@@ -1,0 +1,24 @@
+{
+  "listTitle": "Citoyens",
+  "listSubtitle": "Enregistrer et suivre les citoyens au guichet",
+  "newTitle": "Nouvel enregistrement",
+  "newSubtitle": "Créer un citoyen suite à un paiement de réservation hors application",
+  "fields": {
+    "codeParrainage": "Code de parrainage"
+  },
+  "createSuccess": "Citoyen enregistré.",
+  "actionsTitle": "Actions",
+  "recordPaymentTitle": "Enregistrer un paiement",
+  "paymentMoyen": "Moyen de paiement",
+  "paymentSuccess": "Paiement enregistré.",
+  "markGravureTitle": "Marquer la gravure comme faite",
+  "markGravureConfirm": "Confirmer que la gravure a été réalisée pour ce citoyen ?",
+  "gravureSuccess": "Gravure marquée comme faite.",
+  "updateCardTitle": "Mettre à jour la carte PVC",
+  "cardStatus": "Statut de la carte",
+  "trackingDhl": "Numéro de suivi DHL",
+  "cardUpdateSuccess": "Statut de la carte mis à jour.",
+  "reversementsTitle": "Reversements",
+  "reversementsUploadNotice": "L'enregistrement d'un reversement nécessite un envoi de fichier (reçu) — à vérifier avec la documentation live de l'API avant utilisation.",
+  "citoyensEndpointNotice": "Cette liste utilise la route de lecture du Super Admin en l'absence d'une route dédiée au Bureau — à confirmer avec l'équipe backend."
+}

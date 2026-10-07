@@ -1,0 +1,18 @@
+{
+  "dashboard": "Tableau de bord",
+  "citizens": "Citoyens",
+  "accounts": "Comptes administrateurs",
+  "journal": "Journal d'accès",
+  "content": "Contenus",
+  "cartotheque": "Cartothèque",
+  "lecons": "Leçons",
+  "fondsCerdotola": "Fonds CERDOTOLA",
+  "configuration": "Configuration",
+  "bureau": "Guichet",
+  "bureauNew": "Nouvel enregistrement",
+  "reversements": "Reversements",
+  "graves": "Gravures",
+  "verifyQr": "Vérifier un code QR",
+  "ambassadeur": "Filleuls",
+  "commissions": "Commissions"
+}

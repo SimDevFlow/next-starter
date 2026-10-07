@@ -1,0 +1,23 @@
+services:
+  afrizumic-admin:
+    build:
+      context: .
+      dockerfile: Dockerfile
+      args:
+        NEXT_PUBLIC_INTERN_BASE_URL: ${NEXT_PUBLIC_INTERN_BASE_URL:-/api/admin}
+        NEXT_PUBLIC_STREAMING_ENABLED: ${NEXT_PUBLIC_STREAMING_ENABLED:-false}
+    # Exposé uniquement au reverse proxy.
+    ports:
+      - "127.0.0.1:${WEB_PORT:-3002}:3000"
+    environment:
+      NODE_ENV: production
+      # Service "afrizumic-api" du docker-compose backend, joint via le réseau partagé "afrizumic".
+      API_BASE_URL: ${API_BASE_URL:-http://afrizumic-api:8000}
+    networks:
+      - afrizumic
+    restart: unless-stopped
+
+networks:
+  # Créé par le docker-compose du backend (afrizumic_api) : le lancer en premier.
+  afrizumic:
+    external: true

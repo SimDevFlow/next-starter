@@ -1,0 +1,24 @@
+{
+  "listTitle": "Citizens",
+  "listSubtitle": "Register and follow up citizens at the front desk",
+  "newTitle": "New registration",
+  "newSubtitle": "Create a citizen after receiving an offline reservation payment",
+  "fields": {
+    "codeParrainage": "Referral code"
+  },
+  "createSuccess": "Citizen registered.",
+  "actionsTitle": "Actions",
+  "recordPaymentTitle": "Record a payment",
+  "paymentMoyen": "Payment method",
+  "paymentSuccess": "Payment recorded.",
+  "markGravureTitle": "Mark engraving as done",
+  "markGravureConfirm": "Confirm the engraving has been completed for this citizen?",
+  "gravureSuccess": "Engraving marked as done.",
+  "updateCardTitle": "Update PVC card",
+  "cardStatus": "Card status",
+  "trackingDhl": "DHL tracking number",
+  "cardUpdateSuccess": "Card status updated.",
+  "reversementsTitle": "Remittances",
+  "reversementsUploadNotice": "Recording a remittance requires a file upload (receipt) — verify against the live API docs before use.",
+  "citoyensEndpointNotice": "This list uses the Super Admin read route since there is no dedicated Front Desk route yet — confirm with the backend team."
+}

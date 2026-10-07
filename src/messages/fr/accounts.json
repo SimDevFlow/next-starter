@@ -1,0 +1,21 @@
+{
+  "title": "Comptes administrateurs",
+  "subtitle": "Gérer les accès des équipes",
+  "createTitle": "Créer un compte",
+  "fields": {
+    "email": "Email",
+    "password": "Mot de passe",
+    "role": "Rôle",
+    "ambassadeurVille": "Ville (ambassadeur)",
+    "ambassadeurAssociation": "Association (ambassadeur)",
+    "disabled": "Statut",
+    "createdAt": "Créé le"
+  },
+  "filterByRole": "Filtrer par rôle",
+  "allRoles": "Tous les rôles",
+  "createSuccess": "Compte créé.",
+  "enableSuccess": "Compte activé.",
+  "disableSuccess": "Compte désactivé.",
+  "confirmDisableTitle": "Désactiver ce compte ?",
+  "confirmEnableTitle": "Activer ce compte ?"
+}

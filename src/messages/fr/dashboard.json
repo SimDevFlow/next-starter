@@ -1,0 +1,12 @@
+{
+  "title": "Tableau de bord financier",
+  "subtitle": "Vue d'ensemble des paiements et abonnements",
+  "totalEncaisse": "Total encaissé",
+  "totalResteAPayer": "Reste à payer",
+  "nombreCitoyensSoldes": "Citoyens soldés",
+  "montantDuCerdotola": "Montant dû à CERDOTOLA",
+  "dejaReverseCerdotola": "Déjà reversé à CERDOTOLA",
+  "citoyensParStatut": "Citoyens par statut d'abonnement",
+  "citoyensParReseau": "Citoyens par réseau d'acquisition",
+  "reseauNonRenseigne": "Non renseigné"
+}

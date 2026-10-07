@@ -1,0 +1,16 @@
+{
+  "filleulsTitle": "Referrals",
+  "filleulsSubtitle": "Citizens you referred",
+  "filleulsFields": {
+    "nomComplet": "Full name",
+    "statutAbonnement": "Subscription",
+    "createdAt": "Registered on"
+  },
+  "commissionsTitle": "Commissions",
+  "commissionsSubtitle": "History of your commissions",
+  "totalDu": "Total owed",
+  "commissionsFields": {
+    "montant": "Amount",
+    "date": "Date"
+  }
+}

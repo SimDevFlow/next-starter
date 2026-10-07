@@ -1,0 +1,55 @@
+{
+  "adminRole": {
+    "super_admin": "Super administrateur",
+    "bureau": "Bureau",
+    "cerdotola": "CERDOTOLA",
+    "ambassadeur_diaspora": "Ambassadeur diaspora"
+  },
+  "statutAbonnement": {
+    "aucun": "Aucun",
+    "reserve": "Réservé",
+    "partiel": "Partiel",
+    "solde": "Soldé",
+    "annule": "Annulé"
+  },
+  "statutGravure": {
+    "non_fait": "Non fait",
+    "fait": "Fait"
+  },
+  "statutCartePvc": {
+    "non_demandee": "Non demandée",
+    "demandee": "Demandée",
+    "en_attente_validation_cerdotola": "En attente de validation CERDOTOLA",
+    "validee": "Validée",
+    "imprimee": "Imprimée",
+    "expediee": "Expédiée"
+  },
+  "moyenPaiement": {
+    "mobile_money": "Mobile Money",
+    "carte": "Carte bancaire"
+  },
+  "etapePaiement": {
+    "reservation": "Réservation",
+    "j30": "J+30",
+    "j60": "J+60"
+  },
+  "statutPaiement": {
+    "en_attente": "En attente",
+    "confirme": "Confirmé",
+    "echoue": "Échoué"
+  },
+  "commentEntenduParler": {
+    "instagram": "Instagram",
+    "facebook": "Facebook",
+    "tiktok": "TikTok",
+    "youtube": "YouTube"
+  },
+  "languePreferee": {
+    "fr": "Français",
+    "en": "Anglais",
+    "zh": "Chinois",
+    "de": "Allemand",
+    "pt": "Portugais",
+    "es": "Espagnol"
+  }
+}

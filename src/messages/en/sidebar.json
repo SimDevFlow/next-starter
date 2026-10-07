@@ -1,0 +1,18 @@
+{
+  "dashboard": "Dashboard",
+  "citizens": "Citizens",
+  "accounts": "Admin accounts",
+  "journal": "Access log",
+  "content": "Content",
+  "cartotheque": "Village index",
+  "lecons": "Lessons",
+  "fondsCerdotola": "CERDOTOLA fund",
+  "configuration": "Configuration",
+  "bureau": "Front desk",
+  "bureauNew": "New registration",
+  "reversements": "Remittances",
+  "graves": "Engravings",
+  "verifyQr": "Verify QR code",
+  "ambassadeur": "Referrals",
+  "commissions": "Commissions"
+}

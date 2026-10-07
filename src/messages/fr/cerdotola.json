@@ -1,0 +1,23 @@
+{
+  "gravesTitle": "Gravures",
+  "gravesSubtitle": "Citoyens ayant une gravure enregistrée",
+  "gravesFields": {
+    "nomComplet": "Nom complet",
+    "paysOrigine": "Pays d'origine",
+    "identifiantCertificat": "Identifiant certificat"
+  },
+  "reversementsTitle": "Reversements",
+  "reversementsSubtitle": "Historique des reversements CERDOTOLA",
+  "reversementsFields": {
+    "montant": "Montant",
+    "date": "Date",
+    "recu": "Reçu"
+  },
+  "exportPdf": "Exporter en PDF",
+  "verifyTitle": "Vérifier un certificat",
+  "verifySubtitle": "Saisissez le code du certificat pour vérifier son authenticité",
+  "verifyCodeLabel": "Code du certificat",
+  "verifySubmit": "Vérifier",
+  "verifyValid": "Certificat valide",
+  "verifyInvalid": "Certificat invalide ou introuvable"
+}

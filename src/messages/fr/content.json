@@ -1,0 +1,29 @@
+{
+  "cartothequeTitle": "Cartothèque des villages",
+  "cartothequeSubtitle": "Signification des noms de villages",
+  "cartothequeFields": {
+    "nomVillage": "Nom du village",
+    "significationFr": "Signification"
+  },
+  "cartothequeAdd": "Ajouter un village",
+  "leconsTitle": "Leçons",
+  "leconsSubtitle": "Contenu pédagogique hebdomadaire",
+  "leconsFields": {
+    "semaine": "Semaine",
+    "numero": "Numéro",
+    "videoKeys": "Vidéos",
+    "pdfKeys": "PDF",
+    "musiqueKey": "Musique"
+  },
+  "leconsFilterWeek": "Filtrer par semaine",
+  "leconsUploadNotice": "L'ajout de leçons nécessite un envoi de fichiers (vidéo/PDF) — à vérifier avec la documentation live de l'API avant utilisation.",
+  "leconsComingSoon": "Les leçons vidéo (Cloudflare Stream) seront activées dès réception des accès.",
+  "fondsTitle": "Fonds CERDOTOLA",
+  "fondsSubtitle": "Documents publiés pour le fonds CERDOTOLA",
+  "fondsFields": {
+    "titre": "Titre",
+    "description": "Description",
+    "datePublication": "Date de publication"
+  },
+  "fondsUploadNotice": "L'ajout de documents nécessite un envoi de fichiers — à vérifier avec la documentation live de l'API avant utilisation."
+}

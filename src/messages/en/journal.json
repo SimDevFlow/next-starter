@@ -1,0 +1,12 @@
+{
+  "title": "Access log",
+  "subtitle": "History of content access",
+  "fields": {
+    "citoyenId": "Citizen",
+    "typeContenu": "Content type",
+    "contenuId": "Content",
+    "dateHeure": "Date & time",
+    "ipAddress": "IP address"
+  },
+  "filterByCitizen": "Filter by citizen ID"
+}

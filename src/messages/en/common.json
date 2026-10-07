@@ -1,0 +1,41 @@
+{
+  "appName": "Afrizumiko",
+  "adminPortal": "Admin portal",
+  "switchLanguage": "Switch language",
+  "actions": {
+    "save": "Save",
+    "cancel": "Cancel",
+    "edit": "Edit",
+    "delete": "Delete",
+    "create": "Create",
+    "confirm": "Confirm",
+    "back": "Back",
+    "search": "Search",
+    "view": "View",
+    "download": "Download",
+    "close": "Close",
+    "submit": "Submit",
+    "enable": "Enable",
+    "disable": "Disable",
+    "logout": "Log out"
+  },
+  "status": {
+    "loading": "Loading…",
+    "noResults": "No results",
+    "error": "Something went wrong",
+    "success": "Success"
+  },
+  "table": {
+    "page": "Page",
+    "of": "of",
+    "previous": "Previous",
+    "next": "Next",
+    "total": "Total"
+  },
+  "roles": {
+    "super_admin": "Super admin",
+    "bureau": "Front desk",
+    "cerdotola": "CERDOTOLA",
+    "ambassadeur_diaspora": "Diaspora ambassador"
+  }
+}

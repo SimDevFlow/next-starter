@@ -1,0 +1,29 @@
+{
+  "title": "Citizens",
+  "subtitle": "Manage registered citizen accounts",
+  "fields": {
+    "name": "Last name",
+    "firstName": "First name",
+    "email": "Email",
+    "telephone": "Phone",
+    "paysResidence": "Country of residence",
+    "ville": "City",
+    "paysOrigine": "Country of origin",
+    "village": "Village",
+    "lignage": "Lineage",
+    "languePreferee": "Preferred language",
+    "commentEntenduParler": "How they heard about us",
+    "statutAbonnement": "Subscription",
+    "statutGravure": "Engraving",
+    "statutCartePvc": "PVC card",
+    "trackingDhl": "DHL tracking",
+    "createdAt": "Registered on",
+    "disabled": "Account disabled"
+  },
+  "detailTitle": "Citizen record",
+  "editTitle": "Edit citizen",
+  "confirmDeleteTitle": "Delete this citizen?",
+  "confirmDeleteDescription": "This action cannot be undone.",
+  "deleteSuccess": "Citizen deleted.",
+  "updateSuccess": "Citizen updated."
+}

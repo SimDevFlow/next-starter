@@ -1,0 +1,12 @@
+{
+  "title": "Journal d'accès",
+  "subtitle": "Historique des accès aux contenus",
+  "fields": {
+    "citoyenId": "Citoyen",
+    "typeContenu": "Type de contenu",
+    "contenuId": "Contenu",
+    "dateHeure": "Date et heure",
+    "ipAddress": "Adresse IP"
+  },
+  "filterByCitizen": "Filtrer par identifiant citoyen"
+}

@@ -1,0 +1,14 @@
+{
+  "title": "Content configuration",
+  "subtitle": "Amount of content unlocked per subscription tier",
+  "fields": {
+    "leconsSemaineSolde": "Lessons/week (fully paid)",
+    "leconsSemainePartiel": "Lessons/week (partial)",
+    "pdfSemaine": "PDFs/week",
+    "videosParLecon": "Videos per lesson",
+    "blocageFondsCerdotolaJours": "CERDOTOLA fund lock period (days)"
+  },
+  "noGetNotice": "No current values are available on load: the API does not yet expose a read route for this configuration. The values shown below reflect the last save made during this session.",
+  "currentValues": "Current values (since last save)",
+  "saveSuccess": "Configuration saved."
+}

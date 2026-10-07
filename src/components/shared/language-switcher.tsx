@@ -8,45 +8,42 @@ import {
   DropdownMenuItem,
   DropdownMenuTrigger,
 } from '@/components/ui/dropdown-menu';
-import { usePathname, useRouter } from 'next/navigation';
-import { useLocale } from 'next-intl';
-// import { locales, localeNames, localeFlags, type Locale } from '@/i18n/config';
+import { usePathname, useRouter } from '@/i18n/navigation';
+import { routing } from '@/i18n/routing';
+import { useLocale, useTranslations } from 'next-intl';
+
+const localeNames: Record<string, string> = {
+  fr: 'Français',
+  en: 'English',
+};
 
 export function LanguageSwitcher() {
   const router = useRouter();
   const pathname = usePathname();
   const currentLocale = useLocale();
-
-  // const switchLanguage = (locale: Locale) => {
-  //   // Remplacer la locale dans l'URL
-  //   const segments = pathname.split('/');
-  //   segments[1] = locale;
-  //   const newPathname = segments.join('/');
-  //   router.push(newPathname);
-  // };
+  const t = useTranslations('common');
 
   return (
     <DropdownMenu>
       <DropdownMenuTrigger asChild>
         <Button variant="ghost" size="icon">
           <Languages className="h-5 w-5" />
-          <span className="sr-only">Changer de langue</span>
+          <span className="sr-only">{t('switchLanguage')}</span>
         </Button>
       </DropdownMenuTrigger>
       <DropdownMenuContent align="end">
-        {/* {locales.map((locale) => (
+        {routing.locales.map((locale) => (
           <DropdownMenuItem
             key={locale}
-            onClick={() => switchLanguage(locale)}
+            onClick={() => router.replace(pathname, { locale })}
             className="flex items-center gap-2"
           >
-            <span>{localeFlags[locale]}</span>
-            <span>{localeNames[locale]}</span>
+            <span>{localeNames[locale] ?? locale}</span>
             {currentLocale === locale && (
               <span className="ml-auto text-xs text-muted-foreground">✓</span>
             )}
           </DropdownMenuItem>
-        ))} */}
+        ))}
       </DropdownMenuContent>
     </DropdownMenu>
   );

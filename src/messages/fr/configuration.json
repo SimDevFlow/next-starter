@@ -1,0 +1,14 @@
+{
+  "title": "Configuration des contenus",
+  "subtitle": "Quantités de contenu débloquées par palier d'abonnement",
+  "fields": {
+    "leconsSemaineSolde": "Leçons/semaine (soldé)",
+    "leconsSemainePartiel": "Leçons/semaine (partiel)",
+    "pdfSemaine": "PDF/semaine",
+    "videosParLecon": "Vidéos par leçon",
+    "blocageFondsCerdotolaJours": "Délai de blocage du fonds CERDOTOLA (jours)"
+  },
+  "noGetNotice": "Aucune valeur actuelle n'est disponible au chargement : l'API ne fournit pas encore de route de lecture pour cette configuration. Les valeurs affichées ci-dessous reflètent la dernière sauvegarde de cette session.",
+  "currentValues": "Valeurs actuelles (depuis la dernière sauvegarde)",
+  "saveSuccess": "Configuration enregistrée."
+}

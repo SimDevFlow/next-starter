@@ -1,0 +1,16 @@
+{
+  "filleulsTitle": "Filleuls",
+  "filleulsSubtitle": "Citoyens parrainés",
+  "filleulsFields": {
+    "nomComplet": "Nom complet",
+    "statutAbonnement": "Abonnement",
+    "createdAt": "Inscrit le"
+  },
+  "commissionsTitle": "Commissions",
+  "commissionsSubtitle": "Historique de vos commissions",
+  "totalDu": "Total dû",
+  "commissionsFields": {
+    "montant": "Montant",
+    "date": "Date"
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "adminRole": {
+    "super_admin": "Super admin",
+    "bureau": "Front desk",
+    "cerdotola": "CERDOTOLA",
+    "ambassadeur_diaspora": "Diaspora ambassador"
+  },
+  "statutAbonnement": {
+    "aucun": "None",
+    "reserve": "Reserved",
+    "partiel": "Partial",
+    "solde": "Fully paid",
+    "annule": "Cancelled"
+  },
+  "statutGravure": {
+    "non_fait": "Not done",
+    "fait": "Done"
+  },
+  "statutCartePvc": {
+    "non_demandee": "Not requested",
+    "demandee": "Requested",
+    "en_attente_validation_cerdotola": "Awaiting CERDOTOLA validation",
+    "validee": "Validated",
+    "imprimee": "Printed",
+    "expediee": "Shipped"
+  },
+  "moyenPaiement": {
+    "mobile_money": "Mobile Money",
+    "carte": "Card"
+  },
+  "etapePaiement": {
+    "reservation": "Reservation",
+    "j30": "Day 30",
+    "j60": "Day 60"
+  },
+  "statutPaiement": {
+    "en_attente": "Pending",
+    "confirme": "Confirmed",
+    "echoue": "Failed"
+  },
+  "commentEntenduParler": {
+    "instagram": "Instagram",
+    "facebook": "Facebook",
+    "tiktok": "TikTok",
+    "youtube": "YouTube"
+  },
+  "languePreferee": {
+    "fr": "French",
+    "en": "English",
+    "zh": "Chinese",
+    "de": "German",
+    "pt": "Portuguese",
+    "es": "Spanish"
+  }
+}
