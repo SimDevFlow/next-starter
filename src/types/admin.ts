@@ -4,6 +4,7 @@ export interface User {
   email: string;
   full_name: string;
   disabled: boolean;
+  email_verified: boolean;
   role: Role;
   expiry_alerts_enabled: boolean;
   flash_alerts_enabled: boolean;

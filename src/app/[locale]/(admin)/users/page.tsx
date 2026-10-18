@@ -138,9 +138,12 @@ export default function UsersPage() {
                         </Select>
                       </TableCell>
                       <TableCell>
-                        <Badge variant={user.disabled ? "destructive" : "secondary"}>
-                          {user.disabled ? "Disabled" : "Active"}
-                        </Badge>
+                        <div className="flex gap-1.5">
+                          <Badge variant={user.disabled ? "destructive" : "secondary"}>
+                            {user.disabled ? "Disabled" : "Active"}
+                          </Badge>
+                          {!user.email_verified && <Badge variant="outline">Unverified</Badge>}
+                        </div>
                       </TableCell>
                       <TableCell>{formatDate(user.created_at)}</TableCell>
                       <TableCell className="text-right">
