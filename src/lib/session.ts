@@ -5,7 +5,11 @@ const ACCESS_COOKIE = "access_token";
 const REFRESH_COOKIE = "refresh_token";
 const USER_COOKIE = "admin_user";
 
-const isProd = process.env.NODE_ENV === "production";
+// Secure cookies are dropped by browsers over plain HTTP (except on localhost),
+// so allow disabling them for local containers served without TLS.
+const secureCookies = process.env.COOKIE_SECURE
+  ? process.env.COOKIE_SECURE === "true"
+  : process.env.NODE_ENV === "production";
 
 export type SessionUser = Pick<User, "email" | "full_name" | "role">;
 
@@ -22,7 +26,7 @@ export async function setSession(params: {
   const store = await cookies();
   const base = {
     httpOnly: true,
-    secure: isProd,
+    secure: secureCookies,
     sameSite: "lax" as const,
     path: "/",
   };
