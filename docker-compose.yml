@@ -1,0 +1,16 @@
+services:
+  relai-admin:
+    build:
+      context: .
+      args:
+        NEXT_PUBLIC_INTERN_BASE_URL: ${NEXT_PUBLIC_INTERN_BASE_URL:-/api/backend}
+    image: relai-admin:local
+    container_name: relai-admin
+    env_file: .env.local
+    environment:
+      # Served over plain HTTP locally: Secure cookies would be rejected by the browser
+      COOKIE_SECURE: "false"
+    ports:
+      - "3021:3021"
+    restart: unless-stopped
+    mem_limit: 256m
